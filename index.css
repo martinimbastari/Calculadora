@@ -100,11 +100,10 @@ button:focus {
     }
 
     .calculadora {
-        margin-top: 80px;
     grid-template-columns: repeat(4, 90px);
-    grid-template-rows: 400px repeat(5, 80px) ;
+    grid-template-rows: 350px repeat(5, 80px) ;
     justify-content: center;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0);
     border-radius: 0px;
