@@ -4,8 +4,8 @@
 
 body {
     margin: 0;
-    /* background-color: #224870; */
-    background-color: #1A3C40;
+    background-color: #050f19;
+    /* background-color: #1A3C40; */
 }
 
 .special {
@@ -46,7 +46,7 @@ body {
 button {
     cursor: pointer;
     margin: 5px;
-    padding: 0;
+    padding: 10px;
     border-radius: 32px;
     font-size: 1.5em;
     border: 1px solid rgb(0, 0, 0);
@@ -88,4 +88,23 @@ button:focus {
 #valor-anterior {
     font-size: 2em;
     color: rgb(221, 221, 221);
+}
+
+@media screen and (max-width: 650px) {
+
+    .display {
+        font-size: 30px;
+    }
+
+    .calculadora {
+    margin-top: -20px;
+    grid-template-columns: repeat(4, 90px);
+    grid-template-rows: 350px repeat(5, 80px) ;
+    justify-content: center;
+    height: 90vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px 0px ;
+    }
 }
