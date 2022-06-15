@@ -66,9 +66,9 @@ box-shadow:  4px 4px 8px #00714b,
 
 button:active {
     border-radius: 50px;
-background: #cedb14;
-box-shadow: inset 9px 9px 17px #afba11,
-            inset -9px -9px 17px #edfc17;
+background: #008558;
+box-shadow: inset 9px 9px 17px #00714b,
+            inset -9px -9px 17px #009965;
 }
 
 button:focus {
